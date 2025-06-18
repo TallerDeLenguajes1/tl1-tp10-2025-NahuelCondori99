@@ -6,6 +6,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        using HttpClient client = new HttpClient();
         
     }
 }
