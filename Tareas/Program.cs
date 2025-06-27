@@ -29,8 +29,6 @@ class Program
         string ruta = Path.Combine(Directory.GetCurrentDirectory(), "tareas.json");
         File.WriteAllText(ruta, jsonString);
         Console.WriteLine("Archivo 'tareas.json' creado y cargado con exito.");
-
-        
     }
 
 }
